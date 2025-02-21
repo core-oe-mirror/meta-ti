@@ -23,8 +23,8 @@ S = "${WORKDIR}/git"
 
 BRANCH ?= "ti-linux-6.12.y"
 
-SRCREV ?= "6423e6bb6191982da1c09a21a46c68b494f5b1b5"
-PV = "6.12.9+git"
+SRCREV ?= "5657fc069e8b33255b027a2416b51133a98df939"
+PV = "6.12.13+git"
 
 KERNEL_REPRODUCIBILITY_PATCHES = " \
     file://0001-drivers-gpu-drm-msm-registers-improve-reproducibilit.patch \
